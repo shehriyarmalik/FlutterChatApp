@@ -18,7 +18,7 @@ class ChatSettings extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'SETTINGS',
-          style: TextStyle(color: primaryColor, fontWeight: FontWeight.bold),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
       ),

@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Chat Demo',
+      title: 'Flutter Chat App',
       theme: ThemeData(
         primaryColor: themeColor,
       ),
-      home: AuthService(title: 'CHAT DEMO'),
+      home: AuthService(title: 'Flutter CHAT App'),
       debugShowCheckedModeBanner: false,
     );
   }

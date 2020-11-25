@@ -165,14 +165,14 @@ class HomeScreenState extends State<HomeScreen> {
                       margin: EdgeInsets.only(bottom: 10.0),
                     ),
                     Text(
-                      'Exit app',
+                      'Leave App',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 18.0,
                           fontWeight: FontWeight.bold),
                     ),
                     Text(
-                      'Are you sure to exit app?',
+                      'Are you sure to leave?',
                       style: TextStyle(color: Colors.white70, fontSize: 14.0),
                     ),
                   ],
@@ -254,8 +254,8 @@ class HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'MAIN',
-          style: TextStyle(color: primaryColor, fontWeight: FontWeight.bold),
+          'Home',
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
         actions: <Widget>[

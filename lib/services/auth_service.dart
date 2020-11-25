@@ -133,7 +133,7 @@ class AuthServiceState extends State<AuthService> {
         appBar: AppBar(
           title: Text(
             widget.title,
-            style: TextStyle(color: primaryColor, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           centerTitle: true,
         ),
