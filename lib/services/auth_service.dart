@@ -146,7 +146,7 @@ class AuthServiceState extends State<AuthService> {
                     'SIGN IN WITH GOOGLE',
                     style: TextStyle(fontSize: 16.0),
                   ),
-                  color: Color(0xffdd4b39),
+                  color: Colors.blueGrey,
                   highlightColor: Color(0xffff7f7f),
                   splashColor: Colors.transparent,
                   textColor: Colors.white,
